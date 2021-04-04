@@ -1,0 +1,172 @@
+{
+  "botName": " ",
+  "avatarURL": "https://www.iconfinder.com/data/icons/avatars-1-5/136/84-512.png",
+  "logic": [
+    {
+      "keywords": [
+        "doctor"
+        
+      ],
+      "widget": "links",
+      "widgetName": "doctorsList",
+      "response": {
+        "message": "Here are the availabe doctors this week. Enter the doctor name for more info.",
+        "links": [
+          {
+            "name": "Dr. Pasan Jayakody",
+            "href": ""
+          },
+          {
+            "name": "Dr. Malsha Randeniya",
+            "href": ""
+          },
+          {
+            "name": "Dr. Pavithra hettiarachchi",
+            "href": ""
+          }
+        ]
+      }
+    },
+    {
+      "keywords": [
+        "medical tests",
+        "tests"
+      ],
+      "widget": "links",
+      "widgetName": "checkupsList",
+      "response": {
+        "message": "Here are the available info of available Medical checkups",
+        "links": [
+          {
+            "name": "ESR Checkup",
+            "href": ""
+          },
+          {
+            "name": "Serum Cholesterol Checkup",
+            "href": ""
+          },
+          {
+            "name": "ECG Checkup",
+            "href": ""
+          }
+        ]
+      }
+    },
+    {
+      "keywords": [
+        "dr. pasan jayakody",
+        "pasan jayakody"
+      ],
+      "widget": "links",
+      "widgetName": "pasanLinkList",
+      "response": {
+        "message": "Here are the channeling info on Dr. Pasan Jayakody",
+        "links": [
+          {
+            "name": "Neurologist Dr. Pasan Jayakody will be available from 2.30 PM to 5.30 PM every sunday at Nawaloka hospital colombo.",
+            "href": ""
+          }
+        ]
+      }
+    },
+    {
+      "keywords": [
+        "dr. malsha randeniya",
+        "malsha randeniya"
+      ],
+      "widget": "links",
+      "widgetName": "malshaLinkList",
+      "response": {
+        "message": "Here are the channeling info on Dr. Malsha Randeniya",
+        "links": [
+          {
+            "name": "Consultant Physicion Dr. Malsha Randeniya will be available from 9.00 AM to 12.00 PM every Wednesday and Friday at Nawaloka hospital colombo.",
+            "href": ""
+          }
+        ]
+      }
+    },
+    {
+      "keywords": [
+        "dr. pavithra hettiarachchi",
+        "pavithra hettiarachchi"
+      ],
+      "widget": "links",
+      "widgetName": "pavithraLinkList",
+      "response": {
+        "message": "Here are the channeling info on Dr. Pavithra Hettiarachchi",
+        "links": [
+          {
+            "name": "Consultant Physicion Dr. Pavithra hettiarachchi will be available from 11.00 AM to 2.00 PM every Saturady at Nawaloka hospital colombo.",
+            "href": ""
+          }
+        
+        ]
+      }
+    },
+    {
+      "keywords": [
+        "esr"
+      ],
+      "widget": "links",
+      "widgetName": "esrLinkList",
+      "response": {
+        "message": "Here are the test deatails",
+        "links": [
+          {
+            "name": "ESR test can be done for 5000 Rs at Nawaloka hospital.",
+            "href": ""
+          }
+        ]
+      }
+    },
+    {
+      "keywords": [
+        "ecg"
+      ],
+      "widget": "links",
+      "widgetName": "ecgLinkList",
+      "response": {
+        "message": "Here are the test deatails",
+        "links": [
+          {
+            "name": "ECG test can be done for 5000 Rs at Nawaloka hospital.",
+            "href": ""
+          }
+        ]
+      }
+    },
+    {
+      "keywords": [
+        "serum cholesterol"
+      ],
+      "widget": "links",
+      "widgetName": "choleLinkList",
+      "response": {
+        "message": "Here are the test deatails",
+        "links": [
+          {
+            "name": "Serum Cholesterol test can be done for 2000 Rs at Nawaloka hospital.",
+            "href": ""
+          }
+        ]
+      }
+    }
+  ],
+  "defaultResponse": "Unfortunately, I don't have any information about that. Is there something else you want to ask?",
+  "initialMessage": {
+    "widget": "Options",
+    "widgetName": "initOptions",
+    "message": "Hi! How can I help you? You might be interested on the following information below.",
+    "options": [
+      {
+        "name": "Medical Checkups",
+        "widgetName": "checkupsList"
+      },
+      {
+        "name": "Doctors Availablity",
+        "widgetName": "doctorsList"
+      }
+    ]
+  }
+}
